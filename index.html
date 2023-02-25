@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio Brianna</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Brianna Smit</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.jpeg" alt="">
+            </div>
+            <h1>Brianna Smit</h1>
+            <h2>Tatuadora profesional - Diseño Web</h2>
+            <div class="redes">
+                <a href="https://es-la.facebook.com/tattooanime/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/dave_vero_ink"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.youtube.com/@yelizgunaytattoo"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.instagram.com/brianna_tattoo_/?hl=es"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/2733388362"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Brianna Smit.</span> Estudié en la facultad de Artes en la UNC, soy Licenciada en Artes Plásticas, hace 6 meses terminé mi Curso de desarrollador Front-end.
+                </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            03/07/1990
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +54 (273) 338-8362
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            bri.smit@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Obispo Oro 184, Córdoba
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Anime Tattoo</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Jugar</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Música</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>Caminar</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book-bookmark"></i>
+                            <span>Mangas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Tecnicas -->
+                <div class="col">
+                    <h3>Tecnicas</h3>
+                    <div class="skill">
+                        <span>Realismo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Tatuaje estilo Anime</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Tatuaje Mascota</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>52%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ilustracion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Profesionales -->
+                <div class="col">
+                    <h3>Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>87%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Argentina Programa</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Entré a este mundillo por mera curiosidad y tambien de chica me gustaba bastante la tecología, me alegra haber dado el salto a cureosear este lado.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Artes Placticas</h4>
+                        <span class="casa">UNC Córdoba</span>
+                        <span class="fecha">2010 - 2015 </span>
+                        <p>Me ayudó mucho a pulir mis habilidades con mis manos, gracias a la educación que tuve soy capaz de hacer tales diseños.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Secundario</h4>
+                        <span class="casa">Manuel Belgrano</span>
+                        <span class="fecha">2003 - 2009</span>
+                        <p>Estudié en este colegio por mera elección, me gustó todo lo que aprendí de ahí.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Trabajos</h3>
+                    <div class="item der">
+                        <h4>Tatuadora Profesional</h4>
+                        <span class="casa">Bri Tattoo</span>
+                        <span class="fecha">2016 - Actualidad</span>
+                        <p>Despues del trabajo armé mi PYME para emprender y dejar en la piel los diseños de mis clientes :3</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Tatuadora Básica</h4>
+                        <span class="casa">Arte Tattoo</span>
+                        <span class="fecha">2016 - 2017 </span>
+                        <p>Comencé en un estudio chico para comenzar a practicar con diseños simples y después fui avanzando.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Call Center Ventas</h4>
+                        <span class="casa">Voicenter</span>
+                        <span class="fecha">2016 - 2017</span>
+                        <p>Lo unico que rescato de ese trabajo es la experencia en atención al cliente...</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTAFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Tattoo Chainsaw-Man</h3>
+                        <p>Estilo Simple</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Tattoo Digimon</h3>
+                        <p>Estilo Anime Detail</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Tattoo Gohan</h3>
+                        <p>Estilo Anime Resaltado</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Tattoo Rengoku</h3>
+                        <p>Estilo Anime Detail Color</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Tattoo Itachi</h3>
+                        <p>Estilo Resaltado</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Tattoo Itadori</h3>
+                        <p>Estilo Blanco y Negro</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Agendá tu turno por mail :D</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número de Teléfono">
+                    <input type="text" placeholder="Dirección de Correo Electrónico">
+                    <input type="text" placeholder="Tipo de Tatuaje">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Detallame lo más posible cómo y dónde lo querés"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Obispo Oro 184, Córdoba
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Num: +54 (273) 338-8362 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Mail: bri.smit@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://es-la.facebook.com/tattooanime/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/dave_vero_ink"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.youtube.com/@yelizgunaytattoo"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/brianna_tattoo_/?hl=es"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/2733388362"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
